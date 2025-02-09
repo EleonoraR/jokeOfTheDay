@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.joke {
+    font-family: "Rubik Bubbles", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+header {
+    background-color:  #a35af7;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #a35af7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #43038b;
+}
+
+#face {
+    width: 200px;
+    height: 200px;
+    background-color: #ffdb58;
+    border-radius: 50%;
+    position: relative;
+    margin: 2em auto;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+#left-eye {
+    left: 50px;
+}
+
+#right-eye {
+    right: 50px;
+}
+
+#mouth {
+    width: 100px;
+    height: 50px;
+    border-radius: 0 0 100px 100px;
+    border: 10px solid black;
+    border-top: none;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
